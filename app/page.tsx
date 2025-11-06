@@ -5,7 +5,7 @@ import { NeuralBackground } from './components/NeuralBackground'
 export default function Home() {
   const handleLoginRedirect = () => {
     // Replace with actual app URL
-    window.location.href = process.env.NEXT_PUBLIC_APP_URL || 'https://app.neurotwin.io'
+    window.location.href = process.env.NEXT_PUBLIC_APP_URL || 'https://neuro-twin-app.netlify.app/'
   }
 
   return (
