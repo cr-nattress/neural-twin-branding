@@ -21,7 +21,7 @@ Create prompts for these skills and install them globally:
 | **plan** | `CREATE_PLAN_SKILL.md` | Generate implementation plans from objectives |
 | **psych-profile** | `CREATE_PSYCH_PROFILE_SKILL.md` | Create psychological profiles for collaboration |
 | **react-audit** | `CREATE_REACT_AUDIT_SKILL.md` | Audit React/Next.js codebases |
-| **repo-init** | `CREATE_REPO_INIT_SKILL.md` | Bootstrap Claude-ready repositories |
+| **init-repo** | `CREATE_INIT_REPO_SKILL.md` | Bootstrap Claude-ready repositories |
 | **repo-organizer** | `CREATE_REPO_ORGANIZER_SKILL.md` | Optimize repo structure for LLM agents |
 | **skill-updater** | `CREATE_SKILL_UPDATER_SKILL.md` | Convert README to Claude skills |
 | **problem-solver** | `CREATE_PROBLEM_SOLVER_SKILL.md` | Solve problems using your strengths |
@@ -105,7 +105,7 @@ Each prompt file contains:
 
 3. **Generation Skills** (install third)
    - generate-readme - Create README files
-   - repo-init - Bootstrap repositories
+   - init-repo - Bootstrap repositories
    - repo-organizer - Optimize structure
 
 4. **Execution Skills** (install last)
@@ -132,7 +132,7 @@ Each prompt file contains:
 - **generate-backlog** - Generate backlog structure
 
 ### Repository Management
-- **repo-init** - Bootstrap new projects
+- **init-repo** - Bootstrap new projects
 - **repo-organizer** - Improve code organization
 - **repo-condenser** - Prepare repos for Claude Projects
 

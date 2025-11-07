@@ -1,6 +1,6 @@
-# Create Repo-Init Skill - Prompt
+# Create Init-Repo Skill - Prompt
 
-**Skill Name:** `repo-init`
+**Skill Name:** `init-repo`
 
 ## Quick Summary
 
@@ -8,7 +8,7 @@ Create a skill that **bootstraps Claude-ready repositories** with standardized d
 
 ## Task
 
-Copy this skill (`.claude/skills/repo-init/SKILL.md`) to the global skills directory (`C:\Users\RED\.claude\skills\repo-init\`).
+Copy this skill (`.claude/skills/init-repo/SKILL.md`) to the global skills directory (`C:\Users\RED\.claude\skills\init-repo\`) so it's available to all Claude Code projects.
 
 ## What This Skill Does
 
@@ -56,23 +56,29 @@ project/
 
 ## Installation Instructions
 
+### Option 1: Copy from Project
 ```bash
-mkdir -p "C:\Users\RED\.claude\skills\repo-init\"
+mkdir -p "C:\Users\RED\.claude\skills\init-repo\"
 cp "C:\Users\RED\OneDrive\Documents\github\neural-twin-branding\.claude\skills\repo-init\SKILL.md" \
-   "C:\Users\RED\.claude\skills\repo-init\"
-ls -lh "C:\Users\RED\.claude\skills\repo-init\SKILL.md"
+   "C:\Users\RED\.claude\skills\init-repo\"
+ls -lh "C:\Users\RED\.claude\skills\init-repo\SKILL.md"
+```
+
+### Option 2: Ask Claude Code
+```
+"Copy the repo-init skill and install it to C:\Users\RED\.claude\skills\init-repo\"
 ```
 
 ## Verification
 
 ```bash
-ls -lh "C:\Users\RED\.claude\skills\repo-init\SKILL.md"
+ls -lh "C:\Users\RED\.claude\skills\init-repo\SKILL.md"
 ```
 
 ## Usage
 
 ```
-"Use repo-init to bootstrap a new project"
+"Use init-repo to bootstrap a new project"
 "Initialize a Claude-ready repository"
 "Set up a complete project structure"
 ```
@@ -88,7 +94,7 @@ ls -lh "C:\Users\RED\.claude\skills\repo-init\SKILL.md"
 
 ## Typical Workflow
 
-1. **repo-init** - Create project structure
+1. **init-repo** - Create project structure
 2. **plan** - Create implementation plan
 3. **generate-backlog** - Create executable tasks
 4. Start building!
